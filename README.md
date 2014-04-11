@@ -5,13 +5,12 @@ Bash Config
 
 Installation
 
-1. clone the repo
+1.Clone the repo
 
 <pre>
 git clone git@github.com:yuftao/dotBash.git ~/.bash
 </pre>
-
-2. Work on the bash profile, the one on ubuntu is ~/.bashrc
+2.Work on the bash profile, the one on ubuntu is ~/.bashrc
    
    Basically the git prompt feature is based on the code from "git-aware-prompt"   
    
@@ -26,7 +25,7 @@ export GITAWAREPROMPT=~/.bash/git-aware-prompt
 source $GITAWAREPROMPT/main.sh
 </pre>
 
-3. Be very careful about the existing change to PS1, which will be overritten by or overwrite the new rules
+3.Be very careful about the existing change to PS1, which will be overritten by or overwrite the new rules
 
    Combine the exist one with the new rules.
 
