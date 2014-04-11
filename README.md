@@ -1,0 +1,4 @@
+dotBash
+=======
+
+Bash Config
